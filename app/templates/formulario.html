@@ -1,0 +1,33 @@
+<form action="" method="POST" class="form_horto">
+
+    <h1>Adicionar entradas</h1>
+
+    <div class="campos campo-nome">
+        <input id="teste" type="text" name="teste" placeholder="Digite aqui o nome da planta">
+    </div>
+
+    <div class="campos campo-valor">
+        <input id="valor" type="text" name="valor" placeholder="Digite aqui o valor da planta">
+    </div>
+
+    <div class="campos campo-quantidade">
+        <input id="quantidade" type="text" name="quantidade" placeholder="Digite aqui a quantidade">
+    </div>
+
+    <div class="campos botao">
+        <button id="botao-adicionar" type="submit" onclick="alerta()">Adicionar</button>
+    </div>
+
+    <div class="icones">
+        <img src="../static/medias/facebook.png" alt="">
+        <img src="../static/medias/whatsapp.png" alt="">
+        <img src="../static/medias/instagram.png" alt="">
+    </div>
+
+    <script>
+        function alerta(){
+            alert("Entrada adicionada");
+        }   
+    </script>
+
+</form>
