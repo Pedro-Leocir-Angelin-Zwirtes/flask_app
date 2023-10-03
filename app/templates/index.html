@@ -1,139 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="../static/estilo.css"/>
-	<link rel="shortcut icon" href="../static/favicon.ico">
-	
-	<title>Portfólio // Pedro Leocir</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../static/css/estilo_mobile.css">
+    <title></title>
+    <link rel="stylesheet" href="">
 </head>
 <body>
 
-	<header class="container-space">
-		<div class="menu-topo">
-			<div> 
-				<h1>Pedro Leocir</h1>
-			</div>
-			<ul id="itens"> 
-				<li>Ínicio</li>
-				<li>Quem sou</li>
-				<li>Experiências</li>
-				<li>Projetos</li>
-				<li>Serviços</li>
-				<li>Conhecimentos</li>
-			</ul> 
-		</div>
-	</header>
-
-	<div class="sess1 container-space">
-		<div class="sess1-left" data-anime="top">
-			<div class="sess1-info">
-				<h1>Transformando ideias em produtos digitais <span>inovadores</span> e de <span>excelência</span> para empresas.</h1>
-				<p>Combinando expertise em Design, Desenvolvimento Frontend e habilidades profissionais para diferenciar o seu produto no mercado</p>
-				<button>Instagram</button>
-			</div> 
-		</div>
-		<div class="sess1-right" data-anime="top">
-			<img src="../static/code.png" alt="">
-		</div> 
-	</div>
-
-	<div class="sess2 container-space" data-anime="top">
-		<div class="sess2-card">
-			 <div class="sess2-left">
-			</div>
-			<div class="sess2-right">
-				<div class="sess2-info">
-					<h3>Quem sou</h3>
-					<h2>Pedro Leocir</h2>
-					<p id="front-dev">Frontend Developer</p>
-					<p>Meu nome é Pedro Leocir atualmente sou freelancer como Front-end developer e Back-end developer.</p>
-					<div class="sess2-buttons"> 
-						<button data-anime="left"><img src="../static/insta.png" alt=""></button>
-						<button data-anime="left"><img src="../static/linke.png" alt=""></button>
-						<button data-anime="left"><img src="../static/whats.png" alt=""></button>
-						<button data-anime="left"><img src="../static/github.png" alt=""></button>
-					</div>
-				</div> 
-			</div> 
-		</div>
-	</div>
-
-	<div class="sess3 container-space">
-		<h1 id="title" data-anime="top">Projetos</h1>
-		<div class="sess3-grid">
-			<div class="sess3-card-1" data-anime="top">
-				<h1>Em breve ... </h1>
-				<p>Informação do projeto</p>
-				<p class="vrm">Ver mais.</p>
-			</div>
-			<div class="sess3-card" data-anime="top">
-				<h1>Em breve ... </h1>
-				<p>Informação do projeto</p>
-				<p class="vrm">Ver mais.</p>
-			</div>
-			<div class="sess3-card-1" data-anime="top">
-				<h1>Em breve ... </h1>
-				<p>Informação do projeto</p>
-				<p class="vrm">Ver mais.</p>
-			</div>
-		</div>
-		<h3 data-anime="top">Repositório no Github</h3>
-	</div>
-
-	<div class="sess4" data-anime="top">
-		<div class="sess4-int  container-space">
-			<div class="sess4-grid">
-				<h1 id="title">Serviços</h1>
-				<div class="sess4-card">
-					<img src="../static/caneta.png" alt="">
-					<h2>Desenvolvimento</h2>
-					<p>Desenvolvo sites profissionais, blogs, portfólios, landing pages e e-commerce.</p>
-				</div>
-				<div class="sess4-card">
-					<img src="../static/developer.png" alt="">
-					<h2>Full stack</h2>
-					<p>Desenvolvo sites profissionais, blogs, portfólios, landing pages e e-commerce.</p>
-				</div>
-				<div class="sess4-card">
-					<img src="../static/celular.png" alt="">
-					<h2>DEV Mobile</h2>
-					<p>Como desenvolvedor mobile, crio aplicativos personalizados para empresas de diversos setores, desde soluções para e-commerce até aplicativos de portfólio para profissionais.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="sess5 container-space" data-anime="top">
-		<h1 id="title">Conhecimentos</h1>
-		<div class="sess5-grid">
-				<div class="sess5-card">
-					<img src="../static/html.png" alt="">
-				</div>
-				<div class="sess5-card">
-					<img src="../static/css.png" alt="">
-				</div>
-				<div class="sess5-card">
-					<img src="../static/sass.png" alt="">
-				</div>
-				<div class="sess5-card">
-					<img src="../static/js.png" alt="">
-				</div>
-				<div class="sess5-card">
-					<img src="../static/python.png" alt="">
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<footer> 
-		<div class="menu-bottom container-space">
-			<p>Copyright © 2023 <span>Pedro Leocir</span> Todos os direitos reservados.</p> 
-		</div>
-	</footer>
-
-	<script src="../static/script.js"></script>
-
+    <div class="corpo">
+        <div class="topo_logo">
+            <img src="static/medias/logo.png" alt="">
+        </div>
+        <div class="formulario_design">
+            {% include 'formulario.html' %}
+        </div>
+    </div>
+    
 </body>
 </html>
